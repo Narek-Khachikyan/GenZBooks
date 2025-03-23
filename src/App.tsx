@@ -16,6 +16,9 @@ function App() {
       document.body.style.backgroundColor = newBgColor;
       setIsDarkTheme(tg?.themeParams.text_color === "#ffffff");
     };
+
+    tg?.expand(); // Для расширения на полный экран
+
     // Устанавливаем цвет фона в соответствии с темой Telegram
     if (tg?.themeParams?.bg_color) {
       document.body.style.backgroundColor = tg.themeParams.bg_color;
