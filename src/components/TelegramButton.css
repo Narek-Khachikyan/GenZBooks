@@ -1,0 +1,21 @@
+/* src/components/TelegramButton.css */
+.telegram-button {
+  background-color: var(--tg-theme-button-color, #3390ec);
+  color: var(--tg-theme-button-text-color, #ffffff);
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.telegram-button:hover {
+  opacity: 0.8;
+}
+
+.telegram-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

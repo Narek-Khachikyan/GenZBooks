@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  min-height: 100vh;
+  transition: all 0.3s ease;
+}
+
+.light {
+  color: #000000;
+}
+
+.dark {
+  color: #ffffff;
+}
+
+.App-header {
+  margin-bottom: 20px;
+}
+
+.user-info {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.light button {
+  background-color: #3390ec;
+  color: white;
+}
+
+.dark button {
+  background-color: #8774e1;
+  color: white;
+}
